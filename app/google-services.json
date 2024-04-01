@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "240866809819",
+    "firebase_url": "https://mobile-6c516-default-rtdb.firebaseio.com",
+    "project_id": "mobile-6c516",
+    "storage_bucket": "mobile-6c516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240866809819:android:4d71cd295c8faeadbaf9fe",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcQYUgbTTV8UsA0vCgpyTpLChyweVAEGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

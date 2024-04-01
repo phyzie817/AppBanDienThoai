@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:id="@+id/btnQuenMk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="Liên hệ với chúng tôi để được cấp lai mật khẩu:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edt_login_bkg"
+                android:gravity="center"
+                android:text="THUYÊN: 0123456789 "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edt_login_bkg"
+                android:gravity="center"
+                android:text="VY: 0123456987 "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edt_login_bkg"
+                android:gravity="center"
+                android:text="THÁI: 0125458546 "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edt_login_bkg"
+                android:gravity="center"
+                android:text="NHÂN: 0315249285 "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Bạn đã nhớ lại mật khẩu? Đăng nhập lại i =))))"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDangNhapQmk"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/btn_add_bkg"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="Đăng nhập"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

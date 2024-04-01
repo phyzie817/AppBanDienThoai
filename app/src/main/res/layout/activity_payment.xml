@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PaymentActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bkg"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginEnd="35dp"
+            android:gravity="center"
+            android:text="Thanh Toán"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin thanh toán"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/bkg"
+            android:textSize="25sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bkg" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Họ tên:"
+                android:textStyle="bold"
+                android:textColor="@color/bkg"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/txtTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Phạm Yến Vy" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Địa chỉ:"
+                android:textStyle="bold"
+                android:textColor="@color/bkg"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/txtDiaChi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text="828 Sư Vạn Hạnh Quận 10" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07"
+                android:text="Số điện thoại:"
+                android:textStyle="bold"
+                android:textColor="@color/bkg"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/txtSDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0909013359" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bkg" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/locationtt" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nơi nhận hàng:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <RadioButton
+                android:layout_width="183dp"
+                android:layout_height="match_parent"
+                android:text="NHẬN HÀNG TẠI NHÀ"
+                android:textColor="@color/bkg"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:text="NHẬN HÀNG TẠI TRUNG TÂM"
+                android:textColor="@color/bkg"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bkg" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/pay" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hình thức thanh toán:"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="COD"
+                android:textColor="@color/bkg"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:text="ATM/Internet Banking"
+                android:textColor="@color/bkg"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="QR Code"
+                android:textColor="@color/bkg"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bkg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền: "
+                android:textColor="@color/bkg"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="18 888 VND "
+                android:id="@+id/txtTotal"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bkg" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnThanhToan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_add_bkg"
+        android:text="Thanh Toán"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.AddPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bkg"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:text="Thêm sản phẩm"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtBestPhone"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Best Phone"/>
+
+            <EditText
+                android:id="@+id/edtCategoryId"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Category Id"/>
+
+            <EditText
+                android:id="@+id/edtDescription"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Description" />
+
+            <EditText
+                android:id="@+id/edtId"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Id" />
+
+            <EditText
+                android:id="@+id/edtImagePath"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Image Path" />
+
+            <EditText
+                android:id="@+id/edtLocationId"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Locationn Id" />
+
+            <EditText
+                android:id="@+id/edtPrice"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Price" />
+
+            <EditText
+                android:id="@+id/edtPriceId"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Price Id" />
+
+            <EditText
+                android:id="@+id/edtStar"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Star" />
+
+            <EditText
+                android:id="@+id/edtTimeId"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Time Id" />
+
+            <EditText
+                android:id="@+id/edtTimeValue"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Time Value" />
+
+            <EditText
+                android:id="@+id/edtTitle"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/edt_login_bkg"
+                android:hint="Title"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAddPhone"
+                android:layout_width="250dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_add_bkg"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="Thêm sản phẩm"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
